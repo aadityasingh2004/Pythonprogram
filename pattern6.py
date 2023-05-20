@@ -1,5 +1,9 @@
-a=''
-n=5
+n=int(input())
+num=1
 for i in range(n):
-    a+=chr(65+i)+' '
-    print(a)
+    for j in range(i+1):
+        print(num,end='')
+        num+=1
+        if(num==10):
+          num=1
+    print()        

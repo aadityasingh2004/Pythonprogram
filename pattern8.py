@@ -1,6 +1,4 @@
-s=''
-for i in range(5):
-    print(" "*(4-i),end='')
-    s=s+chr(65+i)
-    print(s)
-    
+n=int(input())
+for i in range(1,(n+1)/2):
+    print(' '*(n-i),'*'*((2*i)-1),' '*(n-i))
+for i in range    

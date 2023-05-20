@@ -1,4 +1,3 @@
-l=1
-for i in range(5):
-    print(chr(65+i)*l)
-    l=l+1
+n=int(input())
+for i in range(n,0,-1):
+    print('*'*i)

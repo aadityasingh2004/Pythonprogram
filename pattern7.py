@@ -1,6 +1,7 @@
-s=''
-for i in range(5):
-    print(" "*(4-i),end='')
-    s=s+chr(90-i)
-    print(s)
-    
+n=int(input())
+j=0
+for i in range(n):
+    for k in range(i+1):
+        print(chr(65+j),end=' ')
+        j=j+1
+    print()    
